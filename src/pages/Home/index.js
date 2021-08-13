@@ -9,7 +9,7 @@ import { Trans, useTranslation } from "gatsby-plugin-react-i18next";
 
 import Section from "../../components/Section";
 import ImText from "../../components/TextandImage";
-import Footer from "../../components/Footer";
+import Layout from "../../components/Layout";
 
 import LinesBackground from "./LinesBackground";
 
@@ -236,84 +236,85 @@ const WhyJoin = [
 const HomePage = () => {
   const { t } = useTranslation();
   return (
-    <HomeWrapper>
-      <HomepageSection style={{ width: "100%" }}>
-        <LinesBackground />
-        <div>
-          <HomepageTitle>CovEd<span>ucation</span></HomepageTitle>
-          <HomepageSubtitle>{t("home.subtitle")}</HomepageSubtitle>
-        </div>
-      </HomepageSection>
-      <HomepageBody>
-        <Section p="5vw">
-          <h2>{t("home.whyBePartOfCovEd")}</h2> <br /><br />
-          <Grid container direction="row" justify="center" spacing={6}>
-            {WhyJoin.map((s) => {
-              return (
-                <Grid
-                  key={s.title}
-                  item sm={5}
-                  xs={12}
-                >
-                  <ImText arrangement="horizontal" shape="circle" img={s.imgsrc} minwidth="100px" minheight="100px">
-                    <p className="title">{t(s.title)}</p>
-                    <p className="desc">{t(s.desc)}</p>
-                  </ImText>
-                </Grid>
-              )
-            })}
-          </Grid>
-        </Section>
-        <Section backgroundColor='lightorange' p="100px">
-          <h2>{t("home.howCovEdWorks")}</h2><br />
-          <Grid container direction="row" spacing={3} justify="center">
-            {howItWorks.map((s) => {
-              return (
-                <Grid key={s.step} item md={4} sm={12} xs={12}>
-                  <ImText arrangement="vertical" img={s.imgsrc}> <Circle>{s.key}</Circle> {t(s.step)}
-                  </ImText>
-                </Grid>
-              )
-            })}
-          </Grid><br /><br />
-        </Section>
-        <Section p="100px">
-          <h2>{t("home.findTutors")}</h2> <br /><br />
-          <Grid container direction="row" spacing={3} justify="center">
-            {Subjects.map((s) => {
-              return (
-                s.key === "padding" ? (
-                  <Hidden key={s.text} smDown>
-                    <Grid item sm={1} />
-                  </Hidden>
-                ) : (
-                  <Grid key={s.text} item sm={2} xs={6}>
-                    <ImText
-                      arrangement="vertical"
-                      shape="circle"
-                      img={s.imgsrc}
-                      minwidth="100px"
-                      minheight="100px"
-                    >
-                      {t(s.text)}
+    <Layout>
+      <HomeWrapper>
+        <HomepageSection style={{ width: "100%" }}>
+          <LinesBackground />
+          <div>
+            <HomepageTitle>CovEd<span>ucation</span></HomepageTitle>
+            <HomepageSubtitle>{t("home.subtitle")}</HomepageSubtitle>
+          </div>
+        </HomepageSection>
+        <HomepageBody>
+          <Section p="5vw">
+            <h2>{t("home.whyBePartOfCovEd")}</h2> <br /><br />
+            <Grid container direction="row" justify="center" spacing={6}>
+              {WhyJoin.map((s) => {
+                return (
+                  <Grid
+                    key={s.title}
+                    item sm={5}
+                    xs={12}
+                  >
+                    <ImText arrangement="horizontal" shape="circle" img={s.imgsrc} minwidth="100px" minheight="100px">
+                      <p className="title">{t(s.title)}</p>
+                      <p className="desc">{t(s.desc)}</p>
                     </ImText>
                   </Grid>
                 )
-              )
-            })}
-          </Grid>
-        </Section>
-        <Section backgroundColor='lightblue' p="100px">
-          <h2>{t("home.questions")}</h2>
-          <p>
-            <Trans i18nKey="home.questionsans">
-              Check out our <Link href='/faqs'> FAQs page </Link> to see if we've already answered your question or Contact Us!
-        </Trans>
-          </p>
-        </Section>
-      </HomepageBody>
-      <Footer />
-    </HomeWrapper>
+              })}
+            </Grid>
+          </Section>
+          <Section backgroundColor='lightorange' p="100px">
+            <h2>{t("home.howCovEdWorks")}</h2><br />
+            <Grid container direction="row" spacing={3} justify="center">
+              {howItWorks.map((s) => {
+                return (
+                  <Grid key={s.step} item md={4} sm={12} xs={12}>
+                    <ImText arrangement="vertical" img={s.imgsrc}> <Circle>{s.key}</Circle> {t(s.step)}
+                    </ImText>
+                  </Grid>
+                )
+              })}
+            </Grid><br /><br />
+          </Section>
+          <Section p="100px">
+            <h2>{t("home.findTutors")}</h2> <br /><br />
+            <Grid container direction="row" spacing={3} justify="center">
+              {Subjects.map((s) => {
+                return (
+                  s.key === "padding" ? (
+                    <Hidden key={s.text} smDown>
+                      <Grid item sm={1} />
+                    </Hidden>
+                  ) : (
+                    <Grid key={s.text} item sm={2} xs={6}>
+                      <ImText
+                        arrangement="vertical"
+                        shape="circle"
+                        img={s.imgsrc}
+                        minwidth="100px"
+                        minheight="100px"
+                      >
+                        {t(s.text)}
+                      </ImText>
+                    </Grid>
+                  )
+                )
+              })}
+            </Grid>
+          </Section>
+          <Section backgroundColor='lightblue' p="100px">
+            <h2>{t("home.questions")}</h2>
+            <p>
+              <Trans i18nKey="home.questionsans">
+                Check out our <Link href='/faqs'> FAQs page </Link> to see if we've already answered your question or Contact Us!
+              </Trans>
+            </p>
+          </Section>
+        </HomepageBody>
+      </HomeWrapper>
+    </Layout>
   )
 }
 
