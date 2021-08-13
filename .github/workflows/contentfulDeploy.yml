@@ -34,8 +34,8 @@ jobs:
         # CONTENTFUL_SPACE_ID: ${{ secrets.CONTENTFUL_SPACE_ID }}
         PATH_PREFIX: /coved-static/
       run: |
-        yarn
-        yarn build
+        npm ci
+        npm run build
     
     - name: Deploy 🚀
       uses: crazy-max/ghaction-github-pages@v2.5.0
