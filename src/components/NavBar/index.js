@@ -53,20 +53,22 @@ const UserLinkWrapper = styled.div`
 `;
 
 export default function NavBar(props) {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  // TODO: migrate to gatsby
+  // const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  useEffect(() => {
-    const updateWindowWidth = () => {
-      setWindowWidth(window.innerWidth);
-    };
-    window.addEventListener("resize", updateWindowWidth);
+  // useEffect(() => {
+  //   const updateWindowWidth = () => {
+  //     setWindowWidth(window.innerWidth);
+  //   };
+  //   window.addEventListener("resize", updateWindowWidth);
 
-    return () => {
-      window.removeEventListener("resize", updateWindowWidth);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("resize", updateWindowWidth);
+  //   };
+  // }, []);
 
-  if (windowWidth < 1024) {
+  // if (windowWidth < 1024) {
+  if (false) {
     return (
       <MobileNav
         links={props.links}
