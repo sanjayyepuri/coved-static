@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { graphql } from "gatsby";
 
 import Grid from "@material-ui/core/Grid";
 import Hidden from "@material-ui/core/Hidden";
@@ -320,16 +319,3 @@ const HomePage = () => {
 
 export default HomePage;
 
-export const query = graphql`
-  query($language: String!) {
-    locales: allLocale(filter: {language: {eq: $language}}) {
-      edges {
-        node {
-          ns
-          data
-          language
-        }
-      }
-    }
-  }
-`;

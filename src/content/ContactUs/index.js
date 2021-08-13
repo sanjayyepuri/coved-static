@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { graphql } from "gatsby";
 
 import Alert from "@material-ui/lab/Alert";
 import { useTranslation } from "gatsby-plugin-react-i18next";
@@ -68,18 +67,4 @@ const ContactUs = () => {
   );
 };
 export default ContactUs;
-
-export const query = graphql`
-  query($language: String!) {
-    locales: allLocale(filter: {language: {eq: $language}}) {
-      edges {
-        node {
-          ns
-          data
-          language
-        }
-      }
-    }
-  }
-`;
 
