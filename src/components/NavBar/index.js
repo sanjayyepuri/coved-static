@@ -52,29 +52,39 @@ const UserLinkWrapper = styled.div`
   display: flex;
 `;
 
+const useWindowSize = () => {
+  const isSSR = typeof window === "undefined";
+  const [windowSize, setWindowSize] = React.useState({
+    width: isSSR ? 1200 : window.innerWidth,
+    height: isSSR ? 800 : window.innerHeight
+  });
+
+  const changeWindowSize = () => {
+    setWindowSize({ width: window.innerWidth, height: window.innerHeight });
+  }
+
+  React.useEffect(() => {
+    window.addEventListener("resize", changeWindowSize);
+
+    return () => {
+      window.removeEventListener("resize", changeWindowSize);
+    }
+  }, []);
+
+  return windowSize;
+}
+
 export default function NavBar(props) {
-  // TODO: migrate to gatsby
-  // const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const { width } = useWindowSize();
 
-  // useEffect(() => {
-  //   const updateWindowWidth = () => {
-  //     setWindowWidth(window.innerWidth);
-  //   };
-  //   window.addEventListener("resize", updateWindowWidth);
-
-  //   return () => {
-  //     window.removeEventListener("resize", updateWindowWidth);
-  //   };
-  // }, []);
-
-  // if (windowWidth < 1024) {
-  if (false) {
+  if (width < 1024) {
     return (
       <MobileNav
         links={props.links}
       />
     );
   }
+
   return (
     <>
       <AppBar
