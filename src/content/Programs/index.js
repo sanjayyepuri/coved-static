@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { Container } from "@material-ui/core";
 
 import Layout from "../../components/Layout";
+import { StaticImage } from "gatsby-plugin-image";
 
 
 const Banner = styled.img`
@@ -50,9 +51,9 @@ const ProgramPage = () => {
     return (
         <Layout>
             <Container maxWidth="md">
-                <Banner src="/images/coved_art_club.png"></Banner>
-                <Banner src="/images/coved_book_club.png"></Banner>
-                <Banner src="/images/coved_chess_club.png"></Banner>
+                <StaticImage src="../../images/coved_art_club.png" />
+                <StaticImage src="../../images/coved_book_club.png" />
+                <StaticImage src="../../images/coved_chess_club.png" />
 
                 <p>
                     CovEd now offers Art, Book, and Chess club for K-12 students!
