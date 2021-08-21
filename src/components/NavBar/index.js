@@ -130,10 +130,10 @@ NavBar.defaultProps = {
       title: "FAQs",
       link: "/faqs",
     },
-    {
-      title: "Meet Our Team",
-      link: "/team",
-    },
+    // {
+    //   title: "Meet Our Team",
+    //   link: "/team",
+    // },
     {
       title: "Contact Us",
       link: "/contactus",
