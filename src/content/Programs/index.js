@@ -1,17 +1,10 @@
 import React from "react";
-import styled from "styled-components";
 
 import { Container } from "@material-ui/core";
 
 import Layout from "../../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 
-
-const Banner = styled.img`
-    max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
-`
 
 const PopularClasses = [
     {

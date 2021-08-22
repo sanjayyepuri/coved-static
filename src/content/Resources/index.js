@@ -42,7 +42,7 @@ const ResourcesPage = () => {
     <Layout>
       <Wrapper>
         <h2> Resources </h2>
-        <Grid container direction="row" justify="center" spacing={2}>
+        <Grid container direction="row" justifyContent="center" spacing={2}>
           <Grid item sm={8} xs={10}>
             Welcome to our resources page! Here you will be able to find links to more online learning resources. Don't have a mentor yet, but need help in a particular subject? No problem! Check out our <a target="_blank" rel="noopener noreferrer" href="https://www.piazza.com/coveducation/other/coved1/home"> Piazza page</a>! To join the piazza forum, simply follow these <a href="http://tinyurl.com/menteeguideline" target="_blank" rel="noopener noreferrer" >written instructions</a>, or follow the <a href="http://tinyurl.com/piazzavid" target="_blank" rel="noopener noreferrer" >instructions in this video.</a>
           </Grid>

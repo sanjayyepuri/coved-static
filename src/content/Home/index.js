@@ -247,7 +247,7 @@ const HomePage = () => {
         <HomepageBody>
           <Section p="5vw">
             <h2>{t("home.whyBePartOfCovEd")}</h2> <br /><br />
-            <Grid container direction="row" justify="center" spacing={6}>
+            <Grid container direction="row" justifyContent="center" spacing={6}>
               {WhyJoin.map((s) => {
                 return (
                   <Grid
@@ -266,7 +266,7 @@ const HomePage = () => {
           </Section>
           <Section backgroundColor='lightorange' p="100px">
             <h2>{t("home.howCovEdWorks")}</h2><br />
-            <Grid container direction="row" spacing={3} justify="center">
+            <Grid container direction="row" spacing={3} justifyContent="center">
               {howItWorks.map((s) => {
                 return (
                   <Grid key={s.step} item md={4} sm={12} xs={12}>
@@ -279,7 +279,7 @@ const HomePage = () => {
           </Section>
           <Section p="100px">
             <h2>{t("home.findTutors")}</h2> <br /><br />
-            <Grid container direction="row" spacing={3} justify="center">
+            <Grid container direction="row" spacing={3} justifyContent="center">
               {Subjects.map((s) => {
                 return (
                   s.key === "padding" ? (

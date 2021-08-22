@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
 
@@ -39,11 +39,8 @@ const MobileNavLink = styled(Link)`
   }
 `;
 
-const UserLinksWrapper = styled.div`
-  margin-top: auto;
-`;
 
-const MobileNav = ({ links, loggedIn }) => {
+const MobileNav = ({ links}) => {
   const [open, setOpen] = useState(false);
   
   return (

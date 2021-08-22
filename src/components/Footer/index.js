@@ -26,7 +26,7 @@ const Footer = () => {
     <Wrapper>
         <Section backgroundColor='darkblue' p="50px">
           <p>
-          <Grid container direction="row" justify="center" spacing={2}>
+          <Grid container direction="row" justifyContent="center" spacing={2}>
           <Grid item sm={4} xs={10}> <a target="_blank" rel="noopener noreferrer"  href="https://coved.org/terms">Terms and Conditions</a></Grid>
           <Grid item sm={4} xs={10}> <a target="_blank" rel="noopener noreferrer"  href="https://coved.org/privacy">Privacy Policy</a></Grid>
           {/* <Grid item sm={4} xs={10}> <Link to="/faqs">FAQs</Link></Grid> */}

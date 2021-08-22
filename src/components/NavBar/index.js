@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 
@@ -46,11 +46,6 @@ const LinkStyled = styled(Link)`
   }
 `;
 
-const UserLinkWrapper = styled.div`
-  margin-left: auto;
-  flex-direction: row;
-  display: flex;
-`;
 
 const useWindowSize = () => {
   const isSSR = typeof window === "undefined";
