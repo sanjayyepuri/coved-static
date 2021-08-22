@@ -1,11 +1,10 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby minimal starter
+  CovEd Static Site
 </h1>
+
+This project contains all static component's of CovEd's website. It does not support account creation, mentor matching, or any non-trivial functionality.
+
+## Reference
 
 ## 🚀 Quick start
 
