@@ -133,6 +133,10 @@ NavBar.defaultProps = {
       title: "Contact Us",
       link: "/contactus",
     },
+    {
+      title: "Register",
+      link: "/register",
+    }
   ],
   position: "sticky",
   ver: "default",
