@@ -1,7 +1,9 @@
+require('dotenv').config();
+
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX,
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.coved.org",
     title: "CovEducation",
   },
   plugins: [
@@ -53,6 +55,13 @@ module.exports = {
       options: {
         name: "locale",
         path: "./src/locales"
+      }
+    },
+    {
+      resolve: "gatsby-source-contentful",
+      options: {
+        spaceId: process.env.CONTENTFUL_SPACEID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       }
     },
     {
