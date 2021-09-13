@@ -46,6 +46,7 @@ const FaqSection = ({ title, data }) => {
 }
 
 const FAQsPage = () => {
+  // note: contentful does not have strict ordering.
   const data = useStaticQuery(graphql`
     query FaqQuery {
       faqs: allContentfulFaq {
