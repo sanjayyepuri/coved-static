@@ -8,6 +8,7 @@ import Accordion, { AccordionRow } from '../../components/Accordion';
 import Layout from '../../components/Layout';
 
 import { FONTS } from '../../constants';
+import Markdown from '../../components/Markdown';
 
 const FAQsWrapper = styled.div`
   text-align: center;
@@ -36,7 +37,7 @@ const FaqSection = ({ title, data }) => {
       {data.map((faq) => {
         return (
           <AccordionRow key={faq.question} title={faq.question} id={faq.key}>
-            {faq.answer.answer}
+            <Markdown>{faq.answer.childMdx.body}</Markdown>
           </AccordionRow>
         )
       })}
@@ -53,7 +54,9 @@ const FAQsPage = () => {
         nodes {
           question
           answer {
-            answer
+            childMdx {
+              body
+            }
           }
           category
         }
