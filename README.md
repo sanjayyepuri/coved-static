@@ -1,53 +1,55 @@
-<h1 align="center">
-  CovEd Static Site
-</h1>
+---
+description: There are three different repositories, what gives?
+---
 
-This project contains all static component's of CovEd's website. It does not support account creation, mentor matching, or any non-trivial functionality.
+# A bit of history.
 
-## Reference
+## The first iteration
 
-## 🚀 Quick start
+&#x20;The first version of the website was made in late March 2020. It was made **as quickly as possible.** It featured:
 
-1.  **Create a Gatsby site.**
+* User accounts
+* Sending emails to mentors
+* User analytics
+* A somewhat usable mentor searching experience.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+It was usable, but it was hard to develop new additions to the site. It was built for speed, not maintainability. Once the semester ended and we all had more time on our hands, version 2.0 began.&#x20;
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
 
-2.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+## The second Iteration
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+Upon the start of summer 2020, we began developing the second version of the site. The main goals were roughly:
 
-3.  **Open the code and start customizing!**
+* Better user experience
+* Be maintainable
+* Allow mentors / mentees to manage, log, update mentorships.
 
-    Your site is now running at http://localhost:8000!
+During the summer, a good amount of progress was made:&#x20;
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+* There was [a legit Figma design](https://www.figma.com/file/3IPF991kTgpLJ3LDyyzAgL/CovEd-Web-Redesign?node-id=3%3A2)
+* Over 20 people contributed to the frontend design
+* The sign up experience was smoother (it wasn't one long form!)
 
-4.  **Learn more**
+The site was not finished by the time the summer ended. We might have been too ambitious. Shortly after the semester started we hired a third party to pick up were we left off.&#x20;
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+In late November, the third party showed us the work that had been done so far.  Some UI components looked good and some of the mentor-specific functionality was in place. However, it was not fully functional. The actual code behind the site was, at best, **somewhat** readable.
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+By the end of January 2021, the second iteration of the site was functional.&#x20;
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+It featured:
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+* An extensible [automated messaging system](https://github.com/CovEducation/Website/blob/9652e4fb77d87ff01d29391f243d366a4acd8a25/packages/server/src/services/CommunicationService/CommunicationService.ts) for mentors <-> parents.
+  * It supported both email & SMS
+* Over >100 tests
+* Ability to reject, accept, an archive mentorships within the app itself.
+* A nice view of everyone on the team
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## The third iteration (current)
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Sometime after the second iteration of the website was launched, we made the decision to transition to partnership-based model. This meant that we were to shutdown the mentor matching functionality from the site, including user accounts.&#x20;
 
-## 🚀 Quick start (Gatsby Cloud)
+The current iteration of the site is the second iteration of the site minus any dynamic content. There are no user accounts, automated emails, nor mentor searching functionality.&#x20;
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+
