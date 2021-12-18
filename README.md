@@ -1,3 +1,3 @@
 # CovEducation 
 
-Please see our (GitBook)[https://johanc.gitbook.io/coveducation/] for more details.
+Please see our [GitBook](https://johanc.gitbook.io/coveducation/) for more details.
