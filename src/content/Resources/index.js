@@ -152,13 +152,20 @@ const ResourcesPage = () => {
                   <li><a href="https://www.codecademy.com/" target="_blank" rel="noopener noreferrer" > CodeAcademy </a></li>
                 </ul>
               </AccordionRow>
-              <AccordionRow title="College Prep" id={5}>
-                <h3>College Prep Coveducation Handbooks</h3>
+              <AccordionRow title="CovEd Handbooks: College Preparation & More!" id={5}>
+                <h3>College Preparation</h3>
                 <ul>
                   <li><a href="https://drive.google.com/file/d/1-s5C0_57b0fp1ZEXyMLyAldIJ9UmpsFF/view?usp=sharing" target="_blank" rel="noopener noreferrer" >College Application Basics</a></li>
-                  <li><a href="https://drive.google.com/file/d/11KzeiD1-C1FemI0Tb7_ib4IfIvICyfZW/view?usp=sharing" target="_blank" rel="noopener noreferrer" >First Generation College Application Resources (Part 1)</a></li>
+                  <li><a href="https://drive.google.com/file/d/11KzeiD1-C1FemI0Tb7_ib4IfIvICyfZW/view?usp=sharing" target="_blank" rel="noopener noreferrer" >First Generation College Application Resources</a></li>
+                  <li><a href="https://drive.google.com/file/d/1FosqSu9bisCk_AaOG4ldbKEzGUVqUoYX/view?usp=sharing" target="_blank" rel="noopener noreferrer" >Standardized Test Guide: SAT & AP Exams</a></li>
+                  <li><a href="https://drive.google.com/file/d/1vU-RVqnuoMe_wW_uUmLk1bXViJrw6kok/view?usp=sharing" target="_blank" rel="noopener noreferrer" >Post-College Applications Handbook</a></li>
                 </ul>
-
+                <h3>Additional Mentorship Resources</h3>
+                <ul>
+                  <li><a href="https://docs.google.com/document/d/1uxb49R-V6nRGi0KFTpnc-LDu5Csiu44bOALew0uRF2g/edit?usp=sharing" target="_blank" rel="noopener noreferrer" >Joint Mentorship Resource Document</a></li>
+                  <li><a href="https://docs.google.com/document/d/1fU3xeMhiWwgt2prXsLxRcjKLYG9Mkrn705yPEJW4nho/edit?usp=sharing" target="_blank" rel="noopener noreferrer" >Resources for Students with Special Educational Needs</a></li>
+                  <li><a href="https://drive.google.com/file/d/1vU-RVqnuoMe_wW_uUmLk1bXViJrw6kok/view?usp=sharing" target="_blank" rel="noopener noreferrer" >STEM Content Resources: Middle & High School Students</a></li>
+                </ul>
               </AccordionRow>
             </Accordion>
           </Grid>
