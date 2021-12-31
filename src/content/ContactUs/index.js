@@ -46,20 +46,21 @@ const ContactUs = () => {
           Check out the <a href="/faqs">FAQs</a> page to see if we've already
           answered your question. If you don't see your question there, for
           general questions, please email us at{" "}
-          <a href="mailto:coveducation@gmail.com">coveducation@gmail.com</a>
+          <a href="mailto:support@coved.org">support@coved.org</a>
           ! <br />
           <br /> For any inquiries related to media/news releases, please
-          contact us at <a href="mailto:covedpr@gmail.com">covedpr@gmail.com</a>
-          . <br /> For technical issues related to your account please contact
-          us at <a href="mailto:coved.dev@gmail.com">coved.dev@gmail.com</a>
+          contact us at <a href="mailto:pr@coved.org">pr@coved.org</a>
+          . <br /> For inquiries on partnerships, please email <a href="mailto:partnerships@coved.org">partnerships@coved.org</a>
           . <br />
-          <br /> We're excited to hear from you~
+          <br /> We're excited to hear from you!
         </p>
         <p>
-          If you wish to file a complaint, please contact{" "}
-          <a href="mailto:coved.management@gmail.com">
-            coved.management@gmail.com
-          </a>
+          <br /> <Text style={{fontWeight: "bold"}}> Connect With Us!</Text> <br /> 
+          Stay updated on CovEd events, news, and resources on{" "}
+          <a href="https://www.facebook.com/CovEducationInc"> Facebook</a>, {" "}
+          <a href="https://twitter.com/coveducation"> Twitter</a>,{" "}
+          <a href="http://instagram.com/coveducation"> Instagram</a>,{" & "}
+          <a href="https://www.linkedin.com/company/coveducation-inc"> LinkedIn</a>.
         </p>
       </Alert>
     </Wrapper>
