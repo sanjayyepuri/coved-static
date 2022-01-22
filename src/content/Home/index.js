@@ -98,6 +98,7 @@ const HomepageBody = styled.div`
     font-size: max(1vw, 16px);
     font-weight: 300;
     font-family: ${FONTS.font2};
+    color: ${COLORS.darkblue};
   }
   @media (min-width: 768px){
     p.title{
@@ -105,6 +106,7 @@ const HomepageBody = styled.div`
     }
     p.desc{
       text-align: left;
+      color: ${COLORS.darkblue};
     }
   }
 `;
