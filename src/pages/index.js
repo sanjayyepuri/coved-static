@@ -1,9 +1,18 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Home from "../content/Home";
+import Helmet from "react-helmet"
 
-const IndexPage = () => <Home />;
-
+const IndexPage = () =>{
+  return (
+    <div>
+      <Helmet>
+        <title> CovEd </title>
+      </Helmet>
+      <Home/>
+    </div>
+  )
+}
 export default IndexPage;
 export const query = graphql`
   query($language: String!) {
