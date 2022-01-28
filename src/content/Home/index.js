@@ -223,7 +223,7 @@ const WhyJoin = [
   {
     key: 3,
     title: "home.whyJoin.classroomTitle",
-    desc: "home.whyJoin.classroomTitle",
+    desc: "home.whyJoin.classroom",
     imgsrc: classroom
   },
   {
