@@ -55,7 +55,7 @@ const ContactUs = () => {
           <br /> We're excited to hear from you!
         </p>
         <p>
-          <br /> <Text style={{fontWeight: "bold"}}> Connect With Us!</Text> <br /> 
+          <br /> <b>Connect With Us!</b> <br /> 
           Stay updated on CovEd events, news, and resources on{" "}
           <a href="https://www.facebook.com/CovEducationInc"> Facebook</a>, {" "}
           <a href="https://twitter.com/coveducation"> Twitter</a>,{" "}
