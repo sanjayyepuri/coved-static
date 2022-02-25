@@ -61,6 +61,12 @@
       "Contact": "Your mentor will email you to set up an initial meeting time. If you do not hear from your mentor within 48 hours, please request another mentor."
     },
 
+    "About" : {
+      "Title": "About Us",
+      "Subtitle" : "Meet the current CovEd management team!",
+      "Past" : "The original CovEd management team and developers!"
+    },
+
     "Contact" : {
       "Title": "Contact Us",
       "Subtitle" : "Make sure to check out our FAQs page first!",
