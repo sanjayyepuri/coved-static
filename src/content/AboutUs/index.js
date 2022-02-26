@@ -219,7 +219,7 @@ const AboutUs = () => {
             <li>Dheekshita Kumar</li>
             <li>Johan Cervantes</li>
             <li>Sanjay Yepuri</li>
-            <li>April (in webdevland) Xie</li>
+            <li>April Xie</li>
           </ul>
         </section>
     </Wrapper>
