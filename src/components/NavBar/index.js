@@ -138,6 +138,10 @@ NavBar.defaultProps = {
       link: "/contactus",
     },
     {
+      title: "News",
+      link: "/news",
+    },
+    {
       title: "Register",
       link: "/register",
     }
