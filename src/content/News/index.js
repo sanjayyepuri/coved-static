@@ -67,7 +67,8 @@ const NewsPage = () => {
                   <li><a href="	https://scholar.harvard.edu/mkraft/publications/online-tutoring-college-volunteers-experimental-evidence-pilot-program	" target="_blank" rel="noopener noreferrer" >	American Economic Review - "Online Tutoring by College Volunteers: Experimental Evidence from a Pilot Program"	</a></li>
                   <li><a href="	https://timesofsandiego.com/education/2022/03/02/online-tutoring-effective-at-making-up-for-covid-19-learning-loss-study-says/	" target="_blank" rel="noopener noreferrer" >	Times of San Diego - "Online Tutoring Effective at Making Up for COVID-19 Learning Loss, Study Says"	</a></li>
                   <li><a href="	https://www.edweek.org/leadership/can-online-tutoring-work-results-are-promising-but-preliminary/2022/01	" target="_blank" rel="noopener noreferrer" >	Education Week - "Can Online Tutoring Help Schools Dig Out of a Pandemic Learning Hole?"	</a></li>
-                  <li><a href="	https://www.healthaffairs.org/doi/10.1377/hlthaff.2020.01576	" target="_blank" rel="noopener noreferrer" >	Health Affairs - "How COVID-19 Threatens The Safety Net For US Children"	</a></li>
+                  <li><a href="https://www.healthaffairs.org/doi/10.1377/hlthaff.2020.01576" target="_blank" rel="noopener noreferrer" >	Health Affairs - "How COVID-19 Threatens The Safety Net For US Children"	</a></li>
+                  <li><a href="https://www.kpbs.org/news/local/2022/03/02/online-tutoring-effective-at-making-up-for-covid-19-learning-loss" target="_blank" rel="noopener noreferrer" >	KPBS - "Online Tutoring Effective at Making Up for COVID-19 Learning Loss"	</a></li>
                 </ul>
               </AccordionRow>
               <AccordionRow title="News Releases & Podcasts" id={2}>
@@ -85,7 +86,7 @@ const NewsPage = () => {
               </AccordionRow>
               <AccordionRow title="Resource Listings" id={2}>
                 <ul>
-                  <li><a href="	https://www.roe9.k12.il.us/article/307097	" target="_blank" rel="noopener noreferrer" >	Regional Office of Education 9 - "CovEducation"	</a></li>																					
+                  <li><a href="	https://www.roe9.k12.il.us/article/307097	" target="_blank" rel="noopener noreferrer" >	Regional Office of Education 9 - "CovEducation"	</a></li>
                   <li><a href="	https://www.thefreeschool.org/coveducation-free-tutoring-mentorship-online-k-12/	" target="_blank" rel="noopener noreferrer" >	The Free School - "CovEducation: Free Tutoring & Mentorship Online (K-12)"	</a></li>
                   <li><a href="	https://www.citizenschools.org/covid19-resources/for-parents	" target="_blank" rel="noopener noreferrer" >	Citizen Schools - "COVID-19 Resources"	</a></li>
                 </ul>
