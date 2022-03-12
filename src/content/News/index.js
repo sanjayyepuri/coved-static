@@ -44,7 +44,7 @@ const NewsPage = () => {
         <h2> CovEducation in the News </h2>
         <Grid container direction="row" justifyContent="center" spacing={2}>
           <Grid item sm={8} xs={10}>
-            For press inquiries, please contact pr@coved.org.
+            For press inquiries, please contact our Public Relations Team at pr@coved.org.
           </Grid>
           <Grid item sm={6} xs={10}>
             <Accordion>
