@@ -41,10 +41,10 @@ const NewsPage = () => {
   return (
     <Layout>
       <Wrapper>
-        <h2> Resources </h2>
+        <h2> CovEducation in the News </h2>
         <Grid container direction="row" justifyContent="center" spacing={2}>
           <Grid item sm={8} xs={10}>
-            CovEducation in the news!
+            For press inquiries, please contact pr@coved.org.
           </Grid>
           <Grid item sm={6} xs={10}>
             <Accordion>
