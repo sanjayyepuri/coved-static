@@ -389,7 +389,6 @@ const HomePage = () => {
                         minwidth="200px"
                         minheight="200px"
                       >
-                        {t(s.text)}
                       </ImText>
                       </a>
                     </Grid>
