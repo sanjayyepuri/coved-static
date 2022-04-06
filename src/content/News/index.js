@@ -69,6 +69,8 @@ const NewsPage = () => {
                   <li><a href="	https://www.edweek.org/leadership/can-online-tutoring-work-results-are-promising-but-preliminary/2022/01	" target="_blank" rel="noopener noreferrer" >	Education Week - "Can Online Tutoring Help Schools Dig Out of a Pandemic Learning Hole?"	</a></li>
                   <li><a href="https://www.healthaffairs.org/doi/10.1377/hlthaff.2020.01576" target="_blank" rel="noopener noreferrer" >	Health Affairs - "How COVID-19 Threatens The Safety Net For US Children"	</a></li>
                   <li><a href="https://www.kpbs.org/news/local/2022/03/02/online-tutoring-effective-at-making-up-for-covid-19-learning-loss" target="_blank" rel="noopener noreferrer" >	KPBS - "Online Tutoring Effective at Making Up for COVID-19 Learning Loss"	</a></li>
+                  <li><a href="https://patch.com/california/san-diego/online-tutoring-effective-making-learning-loss-study" target="_blank" rel="noopener noreferrer" >	CA Patch - "Online Tutoring Effective At Making Up For Learning Loss: Study"	</a></li>
+                  <li><a href="https://phys.org/news/2022-03-online-optimism.html" target="_blank" rel="noopener noreferrer" >	Phys - "Online tutoring study shows cause for optimism"	</a></li>
                 </ul>
               </AccordionRow>
               <AccordionRow title="News Releases & Podcasts" id={2}>
