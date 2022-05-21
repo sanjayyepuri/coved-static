@@ -204,6 +204,31 @@ const AboutUs = () => {
 
           </div>
 
+          <div class="person-card">
+
+            <div class="person-image">
+              <img src="https://i.ibb.co/RB1Gj6Q/jeff.jpg"/>
+            </div>
+
+            <div class="person-info">
+              <h3>Jeff Livingston</h3>
+              <p>Research Professor</p>
+            </div>
+
+          </div>
+
+          <div class="person-card">
+
+            <div class="person-image">
+              <img src="https://i.ibb.co/9tWWWMX/charlie.jpg"/>
+            </div>
+
+            <div class="person-info">
+              <h3>Charlie Brobst</h3>
+              <p>Research Team</p>
+            </div>
+
+          </div>
         </section>
         <section>
           <Subtitle>{t("About.Past")}</Subtitle>
