@@ -42,6 +42,7 @@ const ABCMentorRegister = () => {
     return (
         <div style={{display: "flex", minWidth:"80vw", minHeight:"100vh", alignContent:"center", justifyContent: "center", justifySelf:"center", justifyItems:"center", flexDirection: "column"}}>
             <div style = {{display: "flex", alignContent:"center", height: "50px", lineHeight: "50px", justifyContent: "center"}}><LinkStyled to="https://forms.gle/RiRzMFkF8dCq4yEj8" ver="default">Are you a K-12 student? Click here to register for ABC Club as a K-12 student!</LinkStyled></div>
+            <div style = {{display: "flex", alignContent:"center", height: "50px", lineHeight: "50px", justifyContent: "center"}}><LinkStyled to="https://forms.gle/HTH8Xv84u7pzy5rm7" ver="default">Do you want to sign up to help the CovEd Management team? Sign up here!</LinkStyled></div>
             <div style = {{display: "flex", alignContent:"center", justifyContent: "center"}}> <iframe src={GFORM} width="800px" height="900px" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe> </div>
         </div>
     )
