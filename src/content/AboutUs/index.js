@@ -1,12 +1,47 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from 'gatsby';
 
 import { useTranslation } from "gatsby-plugin-react-i18next";
 
 import ImText from "../../components/TextandImage";
 import Layout from "../../components/Layout";
 
-import { FONTS } from "../../constants";
+import { FONTS, COLORS } from "../../constants";
+
+const TextThemes = {
+  fontSize: {
+    default: "max(24px,1.2vw)",
+    lg: "max(24px,1.2vw)",
+  },
+  fontWeight: {
+    default: "700",
+    lg: "700",
+  },
+};
+
+const LinkStyled = styled(Link)`
+  font-family: ${FONTS.font1};
+  font-color: ${COLORS.blue};
+  padding-right: 40px;
+  font-size: ${(props) => TextThemes.fontSize[props.ver]};
+  font-weight: ${(props) => TextThemes.fontWeight[props.ver]};
+  text-decoration: none;
+  &:link {
+    color: ${COLORS.blue};
+  }
+  &:visited {
+    color: ${COLORS.blue};
+  }
+  &:hover {
+    color: ${COLORS.yellow};
+    text-decoration: none;
+  }
+  &:active {
+    color: ${COLORS.yellow};
+    text-decoration: none;
+  }
+`;
 
 const Wrapper = styled.div`
   padding: 100px;
@@ -121,7 +156,7 @@ const AboutUs = () => {
 
             <div class="person-info">
               <h3>Catherine Eng</h3>
-              <p>Lead Pedagogical Director</p>
+              <p>COO</p>
             </div>
 
           </div>
@@ -246,6 +281,11 @@ const AboutUs = () => {
             <li>Sanjay Yepuri</li>
             <li>April Xie</li>
           </ul>
+        </section>
+        <section>
+          <p>
+              If you are a college student interested in helping, <LinkStyled to="https://forms.gle/HTH8Xv84u7pzy5rm7" ver="default">click here to sign up!</LinkStyled>
+          </p>
         </section>
     </Wrapper>
     </Layout>
