@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'gatsby';
 import styled from "styled-components";
 import { FONTS, COLORS } from "../../constants";
-const GFORM = "https://docs.google.com/forms/d/e/1FAIpQLSf3_aXePTvmqqcT05gMDVQ1GyfbsVWoEXt3FvDcQ4ik1tWXug/viewform?embedded=true";
+const GFORM = "https://docs.google.com/forms/d/e/1FAIpQLScxnKtyXOoUCEG41AGCTzmKR36dQf16cAfoicBuBr-toGPbFQ/viewform?embedded=true";
 
 const TextThemes = {
   fontSize: {
