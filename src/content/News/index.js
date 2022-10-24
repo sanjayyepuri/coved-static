@@ -84,6 +84,7 @@ const NewsPage = () => {
                   <li><a href="	https://rss.com/podcasts/bethechange/66888/	" target="_blank" rel="noopener noreferrer" >	Be the Change Podcast - "Be the Change Podcast: S01 E14 - CovEducation"	</a></li>
                   <li><a href="	https://schurrscroll.com/2020/09/29/covid-offers-alumna-chance-to-give-back/	" target="_blank" rel="noopener noreferrer" >	Spartan Scroll - "COVID Offers Alumna Chance to Give Back"	</a></li>
                   <li><a href="	https://www.orangecoast.com/features/sweet-deeds-orange-resident-christin-le-is-a-regional-director-at-coved-a-nonprofit-offering-free-online-mentoring/	" target="_blank" rel="noopener noreferrer" >	Orange Coast Magazine - "Sweet Deeds: Orange Resident Christin Le Is a Regional Director at CovEd, A Nonprofit Offering Free Online Mentoring"	</a></li>
+                  <li><a href="	https://today.ucsd.edu/story/online-tutoring-study-shows-cause-for-optimism	" target="_blank" rel="noopener noreferrer" > UC San Diego - "Online Tutoring Study Shows Cause for Optimism"	</a></li>
                 </ul>
               </AccordionRow>
               <AccordionRow title="Resource Listings" id={2}>
