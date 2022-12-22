@@ -148,7 +148,11 @@ NavBar.defaultProps = {
     {
       title: "Register",
       link: "/register",
-    }
+    },
+    {
+      title: "Donate",
+      link: "/donate",
+    },
   ],
   position: "sticky",
   ver: "default",
