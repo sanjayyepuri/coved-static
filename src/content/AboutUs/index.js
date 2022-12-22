@@ -182,7 +182,7 @@ const AboutUs = () => {
 
             <div class="person-info">
               <h3>Rohun Shroff</h3>
-              <p>National Outreach Co-Director</p>
+              <p>CFO</p>
             </div>
 
           </div>
