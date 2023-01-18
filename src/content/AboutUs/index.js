@@ -116,16 +116,16 @@ const AboutUs = () => {
   const { t } = useTranslation();
   return (
     <Layout>
-    <Wrapper>
+      <Wrapper>
         <Title>{t("About.Title")}</Title>
         <Subtitle>{t("About.Subtitle")}</Subtitle> <br />
 
-        <section class = "outerflex">
+        <section class="outerflex">
 
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://i.ibb.co/HGsbQ2Z/Pallas-Chou.png"/>
+              <img src="https://i.ibb.co/HGsbQ2Z/Pallas-Chou.png" />
             </div>
 
             <div class="person-info">
@@ -138,7 +138,7 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://i.ibb.co/C5L6TXj/Nelly.png"/>
+              <img src="https://i.ibb.co/C5L6TXj/Nelly.png" />
             </div>
 
             <div class="person-info">
@@ -151,7 +151,7 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://i.ibb.co/jVVD9g1/catherine.png"/>
+              <img src="https://i.ibb.co/jVVD9g1/catherine.png" />
             </div>
 
             <div class="person-info">
@@ -164,12 +164,12 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://i.ibb.co/JtM6JJX/Yeji.png"/>
+              <img src="https://i.ibb.co/JtM6JJX/Yeji.png" />
             </div>
 
             <div class="person-info">
               <h3>Yeji Lee</h3>
-              <p>National Outreach Co-Director</p>
+              <p>National Outreach Co-Director & Service Learning Director</p>
             </div>
 
           </div>
@@ -177,7 +177,7 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://i.ibb.co/SfZs3gJ/Rohun.png"/>
+              <img src="https://i.ibb.co/SfZs3gJ/Rohun.png" />
             </div>
 
             <div class="person-info">
@@ -190,7 +190,7 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://i.ibb.co/1sjpTGB/Screen-Shot-2022-02-22-at-8-18-09-PM.png"/>
+              <img src="https://i.ibb.co/1sjpTGB/Screen-Shot-2022-02-22-at-8-18-09-PM.png" />
             </div>
 
             <div class="person-info">
@@ -203,7 +203,7 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://i.ibb.co/Bzht4Jv/Jin.png"/>
+              <img src="https://i.ibb.co/Bzht4Jv/Jin.png" />
             </div>
 
             <div class="person-info">
@@ -216,12 +216,12 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://i.ibb.co/GxQ6ZWf/Screen-Shot-2022-02-24-at-5-54-44-PM.png"/>
+              <img src="https://ca.slack-edge.com/T0104EPPB2N-U041DAAJAUV-2ea0c77dfeda-512" />
             </div>
 
             <div class="person-info">
-              <h3>Eddy Gonzalez</h3>
-              <p>Head of Fundraising</p>
+              <h3>Danyi Wang</h3>
+              <p>Coordinator</p>
             </div>
 
           </div>
@@ -229,12 +229,25 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://i.ibb.co/HCFRJsk/Charlotte-Wickert.jpg"/>
+              <img src="https://ca.slack-edge.com/T0104EPPB2N-U011RMQCEEP-717b34182346-512" />
+            </div>
+
+            <div class="person-info">
+              <h3>Faye Zou</h3>
+              <p>Coordinator</p>
+            </div>
+
+          </div>
+
+          <div class="person-card">
+
+            <div class="person-image">
+              <img src="https://i.ibb.co/HCFRJsk/Charlotte-Wickert.jpg" />
             </div>
 
             <div class="person-info">
               <h3>Charlotte Wickert</h3>
-              <p>Speaker Series Head</p>
+              <p>Mentor Training Coordinator</p>
             </div>
 
           </div>
@@ -242,7 +255,72 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://i.ibb.co/RB1Gj6Q/jeff.jpg"/>
+              <img src="https://ca.slack-edge.com/T0104EPPB2N-U045K319AG1-4b919e0f5fcf-512" />
+            </div>
+
+            <div class="person-info">
+              <h3>Tatiana Liwag</h3>
+              <p>Public Relations Director</p>
+            </div>
+
+          </div>
+
+          <div class="person-card">
+
+            <div class="person-image">
+              <img src="https://ca.slack-edge.com/T0104EPPB2N-U035EE4PH4J-d12c9e59e103-512" />
+            </div>
+
+            <div class="person-info">
+              <h3>Oscar Surrend</h3>
+              <p>Public Relations Coordinator</p>
+            </div>
+
+          </div>
+
+          <div class="person-card">
+
+            <div class="person-image">
+              <img src="https://ca.slack-edge.com/T0104EPPB2N-U01P0660JHY-c86d15e877d8-512" />
+            </div>
+
+            <div class="person-info">
+              <h3>Jan Estandarte</h3>
+              <p>ABC Club Director</p>
+            </div>
+
+          </div>
+
+          <div class="person-card">
+
+            <div class="person-image">
+              <img src="https://i.ibb.co/9H17Rfs/8-CB4-E5-BF-D34-D-4110-A7-E5-8-C4-E794-AB0-FB-Uma-Reddy.jpg" />
+            </div>
+
+            <div class="person-info">
+              <h3>Uma Reddy</h3>
+              <p>Pedagogical Advisor</p>
+            </div>
+
+          </div>
+
+          <div class="person-card">
+
+            <div class="person-image">
+              <img src="https://ca.slack-edge.com/T0104EPPB2N-U019Z5BC7KQ-8bbd645d5502-512" />
+            </div>
+
+            <div class="person-info">
+              <h3>Crystal Hsu</h3>
+              <p>Human Resources</p>
+            </div>
+
+          </div>
+
+          <div class="person-card">
+
+            <div class="person-image">
+              <img src="https://i.ibb.co/RB1Gj6Q/jeff.jpg" />
             </div>
 
             <div class="person-info">
@@ -255,7 +333,7 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://i.ibb.co/9tWWWMX/charlie.jpg"/>
+              <img src="https://i.ibb.co/9tWWWMX/charlie.jpg" />
             </div>
 
             <div class="person-info">
@@ -264,6 +342,49 @@ const AboutUs = () => {
             </div>
 
           </div>
+
+          <div class="person-card">
+
+            <div class="person-image">
+              <img src="https://i.ibb.co/jJX2cM5/Headshot.jpg" />
+            </div>
+
+            <div class="person-info">
+              <h3>Jackson Moody</h3>
+              <p>Technology Officer</p>
+            </div>
+
+          </div>
+
+
+          <div class="person-card">
+
+            <div class="person-image">
+              <img src="https://ca.slack-edge.com/T0104EPPB2N-U03SJSU05FX-7a2f3b7cd142-512" />
+            </div>
+
+            <div class="person-info">
+              <h3>Patrick Chou</h3>
+              <p>Technology Officer</p>
+            </div>
+
+          </div>
+
+
+          <div class="person-card">
+
+            <div class="person-image">
+              <img src="https://ca.slack-edge.com/T0104EPPB2N-U04J98YT5NV-g55e939ff3a7-512" />
+            </div>
+
+            <div class="person-info">
+              <h3>Alejandro Estrella</h3>
+              <p>Technology Officer</p>
+            </div>
+
+          </div>
+
+
         </section>
         <section>
           <Subtitle>{t("About.Past")}</Subtitle>
@@ -284,10 +405,10 @@ const AboutUs = () => {
         </section>
         <section>
           <p>
-              If you are a college student interested in helping, <LinkStyled to="https://forms.gle/HTH8Xv84u7pzy5rm7" ver="default">click here to sign up!</LinkStyled>
+            If you are a college student interested in helping, <LinkStyled to="https://forms.gle/HTH8Xv84u7pzy5rm7" ver="default">click here to sign up!</LinkStyled>
           </p>
         </section>
-    </Wrapper>
+      </Wrapper>
     </Layout>
   );
 };
