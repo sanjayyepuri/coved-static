@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 
@@ -46,11 +46,6 @@ const LinkStyled = styled(Link)`
   }
 `;
 
-const UserLinkWrapper = styled.div`
-  margin-left: auto;
-  flex-direction: row;
-  display: flex;
-`;
 
 const useWindowSize = () => {
   const isSSR = typeof window === "undefined";
@@ -130,6 +125,10 @@ NavBar.defaultProps = {
       title: "FAQs",
       link: "/faqs",
     },
+    {
+      title: "About Us",
+      link: "/aboutus",
+    },
     // {
     //   title: "Meet Our Team",
     //   link: "/team",
@@ -137,6 +136,22 @@ NavBar.defaultProps = {
     {
       title: "Contact Us",
       link: "/contactus",
+    },
+    {
+      title: "News",
+      link: "/news",
+    },
+    {
+      title: "Calendar",
+      link: "/calendar",
+    },
+    {
+      title: "Register",
+      link: "/register",
+    },
+    {
+      title: "Donate",
+      link: "/donate",
     },
   ],
   position: "sticky",

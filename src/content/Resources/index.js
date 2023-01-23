@@ -42,9 +42,9 @@ const ResourcesPage = () => {
     <Layout>
       <Wrapper>
         <h2> Resources </h2>
-        <Grid container direction="row" justify="center" spacing={2}>
+        <Grid container direction="row" justifyContent="center" spacing={2}>
           <Grid item sm={8} xs={10}>
-            Welcome to our resources page! Here you will be able to find links to more online learning resources. Don't have a mentor yet, but need help in a particular subject? No problem! Check out our <a target="_blank" rel="noopener noreferrer" href="https://www.piazza.com/coveducation/other/coved1/home"> Piazza page</a>! To join the piazza forum, simply follow these <a href="http://tinyurl.com/menteeguideline" target="_blank" rel="noopener noreferrer" >written instructions</a>, or follow the <a href="http://tinyurl.com/piazzavid" target="_blank" rel="noopener noreferrer" >instructions in this video.</a>
+            Welcome to our resources page! Here you will be able to find links to more online learning resources. Don't have a mentor yet, but need help in a particular subject? No problem! Check out our <a target="_blank" rel="noopener noreferrer" href="https://piazza.com/coveducation/spring2022/coved1"> Piazza page</a>! To join the piazza forum, simply follow these <a href="http://tinyurl.com/menteeguideline" target="_blank" rel="noopener noreferrer" >written instructions</a>, or follow the <a href="http://tinyurl.com/piazzavid" target="_blank" rel="noopener noreferrer" >instructions in this video.</a>
           </Grid>
           <Grid item sm={6} xs={10}>
             <Accordion>
@@ -152,13 +152,20 @@ const ResourcesPage = () => {
                   <li><a href="https://www.codecademy.com/" target="_blank" rel="noopener noreferrer" > CodeAcademy </a></li>
                 </ul>
               </AccordionRow>
-              <AccordionRow title="College Prep" id={5}>
-                <h3>College Prep Coveducation Handbooks</h3>
+              <AccordionRow title="CovEd Handbooks: College Preparation & More!" id={5}>
+                <h3>College Preparation</h3>
                 <ul>
                   <li><a href="https://drive.google.com/file/d/1-s5C0_57b0fp1ZEXyMLyAldIJ9UmpsFF/view?usp=sharing" target="_blank" rel="noopener noreferrer" >College Application Basics</a></li>
-                  <li><a href="https://drive.google.com/file/d/11KzeiD1-C1FemI0Tb7_ib4IfIvICyfZW/view?usp=sharing" target="_blank" rel="noopener noreferrer" >First Generation College Application Resources (Part 1)</a></li>
+                  <li><a href="https://drive.google.com/file/d/11KzeiD1-C1FemI0Tb7_ib4IfIvICyfZW/view?usp=sharing" target="_blank" rel="noopener noreferrer" >First Generation College Application Resources</a></li>
+                  <li><a href="https://drive.google.com/file/d/1FosqSu9bisCk_AaOG4ldbKEzGUVqUoYX/view?usp=sharing" target="_blank" rel="noopener noreferrer" >Standardized Test Guide: SAT & AP Exams</a></li>
+                  <li><a href="https://drive.google.com/file/d/1vU-RVqnuoMe_wW_uUmLk1bXViJrw6kok/view?usp=sharing" target="_blank" rel="noopener noreferrer" >Post-College Applications Handbook</a></li>
                 </ul>
-
+                <h3>Additional Mentorship Resources</h3>
+                <ul>
+                  <li><a href="https://docs.google.com/document/d/1uxb49R-V6nRGi0KFTpnc-LDu5Csiu44bOALew0uRF2g/edit?usp=sharing" target="_blank" rel="noopener noreferrer" >Joint Mentorship Resource Document</a></li>
+                  <li><a href="https://docs.google.com/document/d/1fU3xeMhiWwgt2prXsLxRcjKLYG9Mkrn705yPEJW4nho/edit?usp=sharing" target="_blank" rel="noopener noreferrer" >Resources for Students with Special Educational Needs</a></li>
+                  <li><a href="https://drive.google.com/file/d/1vU-RVqnuoMe_wW_uUmLk1bXViJrw6kok/view?usp=sharing" target="_blank" rel="noopener noreferrer" >STEM Content Resources: Middle & High School Students</a></li>
+                </ul>
               </AccordionRow>
             </Accordion>
           </Grid>

@@ -1,17 +1,11 @@
 import React from "react";
-import styled from "styled-components";
-
+import { Link } from 'gatsby';
 import { Container } from "@material-ui/core";
-
+import styled from "styled-components";
 import Layout from "../../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
+import { FONTS, COLORS } from "../../constants";
 
-
-const Banner = styled.img`
-    max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
-`
 
 const PopularClasses = [
     {
@@ -44,7 +38,39 @@ const PopularClasses = [
     }
 ]
 
+const TextThemes = {
+  fontSize: {
+    default: "max(16px,1vw)",
+    lg: "max(24px,1.2vw)",
+  },
+  fontWeight: {
+    default: "400",
+    lg: "700",
+  },
+};
 
+const LinkStyled = styled(Link)`
+  font-family: ${FONTS.font1};
+  font-color: ${COLORS.blue};
+  padding-right: 40px;
+  font-size: ${(props) => TextThemes.fontSize[props.ver]};
+  font-weight: ${(props) => TextThemes.fontWeight[props.ver]};
+  text-decoration: none;
+  &:link {
+    color: ${COLORS.blue};
+  }
+  &:visited {
+    color: ${COLORS.blue};
+  }
+  &:hover {
+    color: ${COLORS.yellow};
+    text-decoration: none;
+  }
+  &:active {
+    color: ${COLORS.yellow};
+    text-decoration: none;
+  }
+`;
 
 const ProgramPage = () => {
 
@@ -63,8 +89,10 @@ const ProgramPage = () => {
                 </p>
 
                 <p>
-                    You can view our class catalog <a href="https://www.canva.com/design/DAEem364Q9w/AtBjSn4ioJ_SYGMskS_BPQ/view">here</a>.
-                    Some of our most popular classes are:
+                    You can view our class catalog <LinkStyled to="https://www.canva.com/design/DAEem364Q9w/AtBjSn4ioJ_SYGMskS_BPQ/view" ver="default">here.</LinkStyled>
+                </p>
+                <p>
+                Some of our most popular classes are:
                 </p>
                 <ul>
                     {PopularClasses.map(({ name, description }) =>
@@ -78,7 +106,10 @@ const ProgramPage = () => {
 
                 <p>
                     If you are interested in signing your student up for these
-                    clubs, go to <a href="https://bit.ly/coved-abc-student">bit.ly/coved-abc-student</a>.
+                    clubs, go to <LinkStyled to="https://bit.ly/coved-abc-student" ver="default">bit.ly/coved-abc-student.</LinkStyled>
+                </p>
+                <p>
+                    If you are a college student interested in helping, <LinkStyled to="/abcmentorreg" ver="default">click here to sign up!</LinkStyled>
                 </p>
 
 

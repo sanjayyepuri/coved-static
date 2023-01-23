@@ -1,8 +1,12 @@
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX,
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.coved.org",
     title: "CovEducation",
+  },
+  flags: {
+    FAST_DEV: true,
+    DEV_WEBPACK_CACHE: true
   },
   plugins: [
     {
@@ -15,18 +19,18 @@ module.exports = {
     },
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
-    // {
-    //   resolve: "gatsby-plugin-google-analytics",
-    //   options: {
-    //     trackingId: "",
-    //   },
-    // },
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-161827116-2",
+      },
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/favicon.png",
       },
     },
     "gatsby-plugin-mdx",
