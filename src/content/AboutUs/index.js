@@ -138,19 +138,6 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://i.ibb.co/C5L6TXj/Nelly.png" />
-            </div>
-
-            <div class="person-info">
-              <h3>Nelly Hejazi</h3>
-              <p>CMO - Partnerships</p>
-            </div>
-
-          </div>
-
-          <div class="person-card">
-
-            <div class="person-image">
               <img src="https://i.ibb.co/jVVD9g1/catherine.png" />
             </div>
 
@@ -195,7 +182,7 @@ const AboutUs = () => {
 
             <div class="person-info">
               <h3>Ruth Lu</h3>
-              <p>Coordinators Co-Director</p>
+              <p>Communications and Coordinators Co-Director</p>
             </div>
 
           </div>
@@ -216,20 +203,7 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://ca.slack-edge.com/T0104EPPB2N-U041DAAJAUV-2ea0c77dfeda-512" />
-            </div>
-
-            <div class="person-info">
-              <h3>Danyi Wang</h3>
-              <p>Coordinator</p>
-            </div>
-
-          </div>
-
-          <div class="person-card">
-
-            <div class="person-image">
-              <img src="https://ca.slack-edge.com/T0104EPPB2N-U011RMQCEEP-717b34182346-512" />
+              <img src="https://i.ibb.co/mRGNHth/feye.jpg" />
             </div>
 
             <div class="person-info">
@@ -255,7 +229,7 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://ca.slack-edge.com/T0104EPPB2N-U045K319AG1-4b919e0f5fcf-512" />
+              <img src="https://i.ibb.co/mH3Dwgz/Screenshot-2023-01-21-at-7-15-30-PM.jpg" />
             </div>
 
             <div class="person-info">
@@ -268,12 +242,25 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://ca.slack-edge.com/T0104EPPB2N-U035EE4PH4J-d12c9e59e103-512" />
+              <img src="https://i.ibb.co/C5L6TXj/Nelly.png" />
             </div>
 
             <div class="person-info">
-              <h3>Oscar Surrend</h3>
-              <p>Public Relations Coordinator</p>
+              <h3>Nelly Hejazi</h3>
+              <p>CMO - Partnerships</p>
+            </div>
+
+          </div>
+
+          <div class="person-card">
+
+            <div class="person-image">
+              <img src="https://i.ibb.co/r7scM71/danyi.jpg" />
+            </div>
+
+            <div class="person-info">
+              <h3>Danyi Wang</h3>
+              <p>CMO - Partnerships</p>
             </div>
 
           </div>
@@ -360,7 +347,7 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://ca.slack-edge.com/T0104EPPB2N-U03SJSU05FX-7a2f3b7cd142-512" />
+              <img src="https://i.ibb.co/1fYTMwz/patrick.jpg" />
             </div>
 
             <div class="person-info">
@@ -374,7 +361,7 @@ const AboutUs = () => {
           <div class="person-card">
 
             <div class="person-image">
-              <img src="https://ca.slack-edge.com/T0104EPPB2N-U04J98YT5NV-g55e939ff3a7-512" />
+              <img src="https://i.ibb.co/Bg70wpT/alejandro.jpg" />
             </div>
 
             <div class="person-info">
