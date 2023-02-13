@@ -85,7 +85,7 @@ const Calendar = () => {
             center: 'title',
             right: 'dayGridMonth,listYear'
           }}
-          googleCalendarApiKey='AIzaSyARx8AurcUj5EMIrbZLO_Qq_WAKA1XKxeY'
+          googleCalendarApiKey='API_KEY'
           events={{ googleCalendarId: 'c_f8ula62j40p4purc682umjjbmc@group.calendar.google.com' }}
           eventClick={handleEventClick}
           expandRows
