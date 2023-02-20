@@ -10,7 +10,6 @@ import listPlugin from '@fullcalendar/list';
 import interactionPlugin from "@fullcalendar/interaction";
 import googleCalendarPlugin from '@fullcalendar/google-calendar';
 import textVersion from "textversionjs";
-const CALENDAR = 'https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23e7f2fb&ctz=America%2FLos_Angeles&showTitle=0&showPrint=0&showDate=0&showCalendars=0&src=Y19mOHVsYTYyajQwcDRwdXJjNjgydW1qamJtY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23A79B8E'
 
 const TextThemes = {
   fontSize: {
@@ -85,7 +84,7 @@ const Calendar = () => {
             center: 'title',
             right: 'dayGridMonth,listYear'
           }}
-          googleCalendarApiKey='API_KEY'
+          googleCalendarApiKey={process.env.API}
           events={{ googleCalendarId: 'c_f8ula62j40p4purc682umjjbmc@group.calendar.google.com' }}
           eventClick={handleEventClick}
           expandRows
